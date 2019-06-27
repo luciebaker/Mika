@@ -237,7 +237,7 @@ body {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   font-weight: 700;
   color: #fff; }
 
@@ -274,10 +274,12 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     border-radius: 3px;
-    padding: 15px 30px;
+    padding: 15px 20px;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 0 20px; }
+    margin: 0 10px; }
+  .main-nav a.nav_resp {
+    margin: 0; }
 
 @media only screen and (min-width: 600px) {
   #nav {
@@ -303,7 +305,7 @@ p {
 
 .box2 {
   background-color: #A64B4B;
-  padding: 20px; }
+  padding: 30px; }
 
 .container::after {
   content: "";
